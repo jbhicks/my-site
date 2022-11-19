@@ -20,6 +20,6 @@ Big thanks to Maxi Ferreira for the template and features section with the excel
 - [ ] Integrate Tailwind CSS
 - [ ] Convert UI to look more like Tailwind Spotlight template
 - [ ] Add work history section
-- [ ] 
-
-
+- [ ] Add Soundcloud mix list
+- [ ] Add RSS feed
+- [ ] Add twitter feed
