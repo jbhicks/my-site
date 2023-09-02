@@ -1,5 +1,5 @@
-<h1>About Page</h1>
+<h1>Hi, I'm Josh</h1>
 
-<p>Under construction.</p>
+<p>Currently under construction.</p>
 
 
