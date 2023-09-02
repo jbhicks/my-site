@@ -1,11 +1,8 @@
 <!-- +layout.svelte -->
-<script>
-    import Header from '$lib/components/Header.svelte';
-</script>
+<header>Hi, I'm a header</header>
 
-<Header />
 <main>
-  <slot />
+	<slot />
 </main>
 
 <footer>Hello, I'm the footer.</footer>
