@@ -1,9 +1,10 @@
 <!-- +layout.svelte -->
 <script>
 	import '$lib/styles/global.css';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
-<header>Header</header>
+<Header></Header>
 
 <main>
 	<slot />
