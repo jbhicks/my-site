@@ -1,8 +1,12 @@
 <!-- +layout.svelte -->
-<header>Hi, I'm a header</header>
+<script>
+	import '$lib/styles/global.css';
+</script>
+
+<header>Header</header>
 
 <main>
 	<slot />
 </main>
 
-<footer>Hello, I'm the footer.</footer>
+<footer>Footer</footer>
