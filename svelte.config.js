@@ -6,9 +6,18 @@ const dev = process.argv.includes('dev');
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	base: '',
+	pages: 'build',
 	kit: {
-		adapter: adapter(),
-
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: false
+		}),
+		prerender: {
+			entries: [],
+		},
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
