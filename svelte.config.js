@@ -5,12 +5,10 @@ const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	base: '/my-app',
+	base: '',
 	kit: {
 		adapter: adapter(),
-		paths: {
-			base: '',
-		},
+
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
